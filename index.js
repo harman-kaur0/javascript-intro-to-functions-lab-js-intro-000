@@ -18,6 +18,10 @@ function logWhisper(string){
 }
 
 function sayHiToGrandma(string){
+  switch (string){
+    case string.toUpperCase():
+    return "YES INDEED!"
+  }
 
   if (string.toUpperCase()){
     return "YES INDEED!"
